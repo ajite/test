@@ -65,5 +65,5 @@ jobs:
           label: coverage
           message: ${{ needs.quality.outputs.coverage_percent }}
           namedLogo: pytest
-          color: red
-          logoColor: lightred
+          color: green
+          logoColor: lightgreen
