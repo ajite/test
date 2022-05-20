@@ -1,4 +1,4 @@
-.. image:: https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/ajite/c90a126b4e926b94c07a36ac78e9a9ad/raw/wanikani_cli_coverage.json
+.. image:: https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/ajite/d91fdf482aa416cb5abd2611ee688b85/raw/wanikani_cli_coverage.json
 	:target: https://github.com/ajite/wanikani-cli
 	:alt: Coverage
 	
