@@ -49,7 +49,7 @@ jobs:
       id: coverage
       run: |
         python -m poetry run coverage run -m pytest
-        echo "COVERAGE=$(poetry run coverage report | awk '$1 == "TOTAL" {print $NF+0}')" >> $GITHUB_ENV
+        COVERAGE=$(poetry run coverage report | awk '$1 == "TOTAL" {print $NF+0}')
         echo "::set-output name=coverage_percent::$COVERAGE"
 
   badges:
